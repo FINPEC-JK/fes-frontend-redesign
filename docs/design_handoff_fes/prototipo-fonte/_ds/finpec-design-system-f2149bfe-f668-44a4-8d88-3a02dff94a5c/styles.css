@@ -1,0 +1,13 @@
+/* ============================================================
+   FINPEC DESIGN SYSTEM · global entry point
+   Consumers link THIS one file. It only @imports — order
+   matters: fonts and tokens first, base reset last so it can
+   reference the custom properties above.
+   ============================================================ */
+
+@import "tokens/fonts.css";
+@import "tokens/colors.css";
+@import "tokens/typography.css";
+@import "tokens/spacing.css";
+@import "tokens/base.css";
+@import "components/finpec-components.css";

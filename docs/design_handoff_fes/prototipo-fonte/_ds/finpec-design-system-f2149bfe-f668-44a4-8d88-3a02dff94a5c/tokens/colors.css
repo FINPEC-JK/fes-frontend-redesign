@@ -1,0 +1,73 @@
+/* ============================================================
+   FINPEC · COLOR TOKENS
+   A warm, sober "paper & ink" system. Cream paper surfaces and a
+   near-black warm sidebar. The interactive spine is a calm ROYAL
+   BLUE (--primary) — used for buttons, links, active states,
+   iconography and charts. The burnt-orange (--accent) is reserved
+   for the BRAND MARK and attention indicators; red is danger only;
+   green is a soft pastel positive. Built for dense, data-heavy
+   financial interfaces.
+   ============================================================ */
+
+:root {
+  /* ---- Paper / surfaces (light app chrome) ---- */
+  --bg: #F4F2EE;          /* app canvas — warm cream */
+  --surface: #FFFFFF;     /* cards, panels, inputs */
+  --surface-2: #FAF9F6;   /* recessed: table headers, search fields, hovers */
+  --border: #E7E3DB;      /* hairline dividers, card borders */
+  --border-strong: #D7D2C7; /* input borders, emphasized dividers */
+
+  /* ---- Sidebar / dark chrome ---- */
+  --side: #181612;        /* sidebar + login art — warm near-black */
+  --side-2: #211E18;      /* nav hover */
+  --side-3: #2B2820;      /* badges, scrollbar */
+  --side-border: #322E26; /* dividers inside dark chrome */
+  --side-text: #B7B1A4;   /* nav label rest state */
+  --side-text-dim: #837D71; /* group labels, secondary nav text */
+  --side-active-bg: #2D2920; /* active nav row */
+
+  /* ---- Ink / text on paper ---- */
+  --ink: #1B1915;         /* primary text, headings */
+  --ink-2: #4A453D;       /* body text, secondary headings */
+  --muted: #756F63;       /* labels, captions, table body */
+  --faint: #A39C8E;       /* placeholders, disabled, meta */
+
+  /* ---- Primary (royal blue) · the interactive + iconography spine ---- */
+  --primary: #2860C6;      /* primary actions, links, active states, icons */
+  --primary-hover: #204FA6;
+  --primary-press: #1A4488;
+  --primary-soft: #E8EEFB; /* tinted backgrounds, focus rings, soft fills */
+  --primary-ink: #1B4C92;  /* primary text on soft fills */
+  --primary-deep: #17457F; /* hero gradients, deep blue surfaces */
+
+  /* ---- Accent (FINPEC burnt orange) · BRAND MARK + attention only ---- */
+  --accent: #DC4E25;      /* logo/brand, hot badges, attention indicators */
+  --accent-hover: #C2421C;
+  --accent-press: #A93914;
+  --accent-soft: #FBEADF; /* soft attention fills */
+  --accent-ink: #8F3214;  /* accent text on soft fills */
+
+  /* ---- Semantic · success (soft pastel green) ---- */
+  --ok: #4C9A5E;
+  --ok-soft: #E9F3E5;
+  --ok-ink: #2F6B3E;
+
+  /* ---- Semantic · warning ---- */
+  --warn: #B07206;
+  --warn-soft: #FAEED2;
+  --warn-ink: #7A4E03;
+
+  /* ---- Semantic · danger ---- */
+  --danger: #C8382B;
+  --danger-soft: #FAE2DF;
+  --danger-ink: #8E251B;
+
+  /* ---- Semantic · info ---- */
+  --info: #2563C9;
+  --info-soft: #E5ECFB;
+  --info-ink: #1A488F;
+
+  /* ---- Neutral chip ---- */
+  --neutral-soft: #EFEDE7;
+  --neutral-ink: #5C564B;
+}

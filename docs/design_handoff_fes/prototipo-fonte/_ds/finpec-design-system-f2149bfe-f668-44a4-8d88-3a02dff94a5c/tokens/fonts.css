@@ -1,0 +1,8 @@
+/* FINPEC webfonts — loaded from Google Fonts.
+   Display : Schibsted Grotesk (headings, KPI values, wordmark)
+   UI      : Hanken Grotesk   (body, controls, labels)
+   Mono    : IBM Plex Mono    (numbers, IDs, codes, technical metadata)
+   The @import below pulls the @font-face declarations Google serves; those
+   rules are what the compiler reads to ship the webfonts to consumers. */
+
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
